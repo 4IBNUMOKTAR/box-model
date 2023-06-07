@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS box model</title>
+    <style>
+        .main {
+            width: 960px;
+            min-height: 500px;
+            border: 5px solid navy;
+            padding: 3px;
+            margin: 5px auto;
+        }
+        .header{
+            width: 947px;
+            height: 150px;
+            border: 4px solid rgb(230, 170, 93);
+            padding: 3px;
+            margin: 5px auto;
+            background-color: antiquewhite;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+        }
+        .topnav {
+
+            width: 947px;
+            height: 50px;
+            border: 3px solid rgb(230, 170, 93);
+            padding: 3px;
+            margin: 5px auto;
+        }
+        .topnav h3{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 22px;
+            text-align: center;
+        }
+        .contents{
+            width: 947px;
+            min-height: 400px;
+            border: 1px solid navy;
+            padding: 3px;
+            margin: 5px auto;  
+        }
+        .footer{
+            width: 947px;
+            height: 80px;
+            border: 1px solid navy;
+            padding: 3px;
+            margin: 5px auto;
+            background-color: antiquewhite;
+        }
+        .footer h2{
+            text-align: center;
+            font-size: 20px;
+            color: blue;
+        }
+        .sectionOne{
+            width: 296px;
+            height: 387px;
+            border: 2px solid black;
+            padding: 3px;
+            margin: 5px;
+            float: left;
+        }
+        .sectionTwo{
+            width: 296px;
+            min-height: 387px;
+            border: 2px solid black;
+            padding: 3px;
+            margin: 5px; 
+            float: left;
+        }
+        .sectionThree{
+            width: 296px;
+            height: 387px;
+            border: 2px solid black;
+            padding: 3px;
+            margin: 5px; 
+            background-color: aquamarine;
+            float: left;  
+        }
+        .subsection{
+            width: 292px;
+            min-height: 193.5px;
+            border: 2px solid black;
+            padding: 0px;
+            margin: 1px; 
+            background-color: rgb(230, 170, 93);
+            float: left;   
+            font-family: Verdana, Geneva, Tahoma, sans-serif; 
+                }
+        .subsection h3{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: center;
+            color: white;
+            font-size: 22px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <h1>My Website Header</h1>
+        </div>
+        <div class="topnav">
+            <h3>=>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita tenetur illo voluptate alias.</h3>
+        </div>
+        <div class="contents">
+            <div class="sectionOne">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam nesciunt autem doloremque at repellat quas harum expedita deleniti itaque recusandae, nisi iste accusamus asperiores repellendus voluptates adipisci officiis. Perferendis, ullam est! Nulla, doloribus atque provident dolore beatae sapiente dicta consectetur amet expedita inventore facilis deleniti, excepturi cumque!
+                <div class="image"><img src="swir two.jpg" width="297px" height="217px"></div>
+            </div>
+            <div class="sectionTwo">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi atque dicta iure. Ipsum eaque expedita et minima, ab a minus sequi hic nihil. Harum quod unde voluptates aperiam facere obcaecati laboriosam quae suscipit qui accusamus praesentium rem deserunt, cupiditate ipsam mollitia possimus soluta consequatur velit architecto iste repellendus magni. Ipsa ab aspernatur consequatur dolor iusto beatae saepe, ullam laboriosam soluta, modi ea? Tempore vitae quos dignissimos iusto dolore dolorem officiis quasi, beatae vel dolorum facere animi odio illum cumque soluta culpa distinctio repellendus? Alias voluptas unde molestiae pariatur voluptates ratione doloribus quisquam praesentium iure optio odit asperiores accusantium, nostrum repudiandae.
+            </div>
+            <div class="sectionThree">
+                <div class="subsection">
+                    <h3><b>NOTEs</b></h3>
+                   <b> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas blanditiis nihil sequi! Inventore iste aspernatur quod quis ad, et aperiam obcaecati exercitationem ipsam</b>
+                </div>
+                <img src="swir one.jpg" width="297px" height="185px">
+            </div>
+        </div>
+        <div class="footer">
+            <h2>&copy;Footer</h2>
+        </div>
+    </div>
+</body>
+</html>
